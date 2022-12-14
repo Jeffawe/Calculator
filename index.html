@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700&display=swap" rel="stylesheet"></link>
+    <link type="image/png" sizes="32x32" rel="icon" href="./icons8-calculator-32.png">
+</head>
+<body>
+    <div class="center_page">
+        <div class="heading">
+            <h1>Calculator</h1>
+            <p><a href="https://jeffery-oa.vercel.app/">Created by Jeffery Ozoekwe-Awagu</a></p>
+        </div>
+        <div class="input_box">
+            <input type="text" id="text" class="input_box" autocomplete="off" disabled/>
+            <input type="text" id="input" class="input_box" autocomplete="off" />
+        </div>
+        <div class="buttons">
+            <button onclick="Calculate.add()">+</button>
+            <button onclick="Calculate.subtract()">-</button>
+            <button onclick="Calculate.multiply()">x</button>
+            <button onclick="Calculate.divide()">/</button>
+            <button onclick="EqualsTo()">=</button>
+            <button onclick="Clear()">clear</button>
+        </div>
+        <div>
+            <p>Icons by Icon8</p>
+        </div>
+    </div>
+</body>
+</html>

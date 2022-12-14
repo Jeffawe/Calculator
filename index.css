@@ -1,0 +1,53 @@
+html, body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.heading {
+    text-align: center;
+    color: darkblue;
+}
+
+.center_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+input {
+    width: 20rem;
+    height: 5rem;
+    font-size: 3rem;
+    border: 1px black solid;
+    text-align: right;
+}
+
+.buttons {
+    padding: 2rem 0rem;
+}
+
+.buttons > button {
+    padding: 1rem;
+    color: black;
+    background-color: aliceblue;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media screen and (max-width:375px) {
+    input {
+        width: 15rem;
+    }
+}
